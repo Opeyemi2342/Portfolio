@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="./dist/output.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
-<body class="grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+<body class="w-fit">
     <nav class="flex justify-between bg-gray-50 mt-5 py-5 border-b">
-        <div class="flex items-center justify-between ml-20">
-            <a href="" class="text-xl font-bold text-red-700">Opeyemi Adegbesan</a>
+        <div class="items-center justify-between ml-20 flex-shrink-0">
+            <a href="" class="sm:text-xl md:text-2xl mr-10 font-bold text-red-700 ">Opeyemi Adegbesan</a>
         </div>
 
         <div class="flex items-center space-x-8 text-sm font-medium mr-20">
@@ -28,15 +28,15 @@
         </div>
     </nav>
 
-    <section class="flex justify-between items-center bg-gray-100">
-        <div>
-            <img src="./src/PASSPORT PHOTOGRAPH.jpeg" alt="" class="h-150 w-100 rounded-lg mt-20 mb-6 ml-20">
+    <section class="flex justify-between items-center bg-gray-100 flex-col md:flex-row md:items-start gap-8 mx-auto w-full">
+        <div class="flex justify-center md:justify-start sm:w-full">
+            <img src="./src/PASSPORT PHOTOGRAPH.jpeg" alt="" class="h-150 rounded-lg mt-20 mb-6 w-fit col-flex sm:col-start-12">
         </div>
 
-        <div class="ml-30">
-            <div>
-                <div>
-                    <h2 class="font-bold text-2xl mb-4">Opeyemi Adegbesan</h2>
+        <div class="p-6">
+            <div class="md:items-center xl:items-center sm:items-next items-center">
+                <div class="">
+                    <h2 class="font-bold text-2xl mb-4 mt-20">Opeyemi Adegbesan</h2>
                     <p class="font-bold text-red-700 mb-4">Front-End Developer</p>
                     <p class="mb-2 font-bold">I'm a Frontend Developer who turns complex backend systems into fluid, intuitive user experience</p>
                 </div>
@@ -78,12 +78,12 @@
         </div>
     </section>
 
-    <section class="flex justify-between items-center">
-        <div>
-            <img src="./src/laprop image.png.jpeg" alt="" class="h-60 w-108 rounded-lg mt-20 ml-20">
+    <section class="flex justify-between items-center bg-gray-100 flex-col md:flex-row md:items-start gap-8 mx-auto w-full">
+        <div class="flex flex-col justify-center md:justify-start sm:w-full">
+            <img src="./src/laprop image.png.jpeg" alt="" class="h-60 rounded-lg mt-35 w-fit col-flex sm:col-start-12">
         </div>
 
-        <div class="ml-40 mt-30">
+        <div class=" mt-30 md:items-center xl:items-center sm:items-next p-6">
             <h2 class="font-bold text-red-700">ABOUT ME</h2>
             <p class="text-xl font-bold mb-3 mt-3">Engineering robust solutions with technical precision.</p>
             <p class="mb-3">With over 5 years of professional development experience, I specialize in building scalabe web and mobile applications. My approach combines clean code architecture with an obsession for user experience</p>
@@ -110,23 +110,23 @@
                 </a>
             </div>
 
-            <div class="grid grid-cols-4 space-x-3 mt-5">
-                <div class="bg-gray-100 rounded-xl p-2 text-center">
+            <div class="grid grid-cols-4 space-x-3 mt-8 gap-2">
+                <div class="bg-gray-100 border rounded-xl p-2 text-center">
                     <h3 class="font-bold text-2xl ml-2 text-red-700">41+</h3>
                     <p>Projects</p>
                 </div>
 
-                <div class="bg-gray-100 rounded-xl p-2 text-center">
+                <div class="bg-gray-100 border rounded-xl p-2 text-center">
                     <h3 class="font-bold text-2xl ml-2 text-red-700">25+</h3>
                     <p>Clients</p>
                 </div>
 
-                <div class="bg-gray-100 rounded-xl p-2 text-center">
+                <div class="bg-gray-100 border rounded-xl p-2 text-center">
                     <h3 class="font-bold text-2xl ml-2 text-red-700">05+</h3>
                     <p>Years</p>
                 </div>
 
-                <div class="bg-gray-100 rounded-xl p-2 text-center">
+                <div class="bg-gray-100 border rounded-xl p-2 text-center">
                     <h3 class="font-bold text-2xl ml-2 text-red-700">12+</h3>
                     <p>Tech</p>
                 </div>
@@ -137,9 +137,9 @@
 
     
 
-    <section class="flex justify-between items-center bg-gray-50 p-6 mt-20">
-        <div class="grid grid-cols-4 gap-6 ml-15">
-            <div class="bg-white rounded-2xl p-8 border border-gray-100 flex flex-col gap-6">
+    <section class="flex justify-between bg-gray-50 p-6 mt-20">
+        <div class="grid sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-4 items-center gap-2 px-60 md:inline-full">
+            <div class="bg-white rounded-2xl p-8 border border-gray-100 gap-6">
                 <div class="w-12 h-12 rounded-xl bg-red-100 flex items-center justify-center text-red-700">
                     <i class="fa-solid fa-laptop"></i>
                 </div>
@@ -204,8 +204,8 @@
         </div>
     </section>
 
-    <section class="bg-white py-16 px-4 ml-20">
-        <div>
+    <section class="bg-white py-16 px-4 ">
+        <div class="p-6">
             <div class="flex items-end justify-between mb-4">
                 <div>    
                    <p class="text-xs font-bold text-red-700 mb-2">SELECTED WORK</p>
@@ -218,7 +218,7 @@
               </div>
             </div>
 
-            <div class="grid grid-cols-3 gap-8">
+            <div class="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-8">
                 <div class="bg-white rounded-xl border border-gray-200 flex flex-col">
                     <div>
                         <div class="bg-gray-50 flex items-center justify-center p-4 rounded-xl">
@@ -361,7 +361,7 @@
             <h3 class="text-3xl font-bold">Work Experience</h3>
         </div>
 
-        <div class="relative h-80 flex justify-between items-start gap-20">
+        <div class="relative flex-col-3 h-80 justify-between items-start gap-20">
 
             <div>
                 <div class="absolute left-6 top-0 h-full w-[1px] bg-red-400"></div>
@@ -371,7 +371,7 @@
                 <div class="absolute left-[18px] bottom-4 h-4 w-4 rounded-full bg-red-600 border-4 border-red-200"></div>
             </div>
 
-            <div class="flex justify-between items-start pb-12">
+            <div class="flex mx-auto max-w-3xl justify-between items-start pb-12">
                 <div>
                     <h3 class="text-lg font-semibold">Freelance Full Stack Developer</h3>
                     <p class="mt-1">Self-Employed</p>
@@ -388,16 +388,17 @@
                     </h3>
                 </div>
             </div>
-        </div>
-    </section> -->
 
-    <section class="bg-gray-100 px-12 py-10 mt-20">
+        </div>
+    </section>  -->
+
+    <section class="bg-gray-100 py-10 mt-20">
         <div class="text-center">
             <h3 class="text-sm text-red-700 mb-2 font-semibold">WHAT I DO</h3>
             <P class="text-3xl font-bold mb-10">Professional Services</P>
         </div>
 
-        <div class="grid gap-8 grid-cols-3 ml-15">
+        <div class="grid gap-8 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 ml-15 mr-10">
 
             <div class="bg-white rounded-2xl py-6 px-8">
                 <div class="h-12 w-12 flex items-center justify-center rounded-full">
@@ -437,7 +438,7 @@
             <P class="text-3xl font-bold mb-10">Client Testimonials</P>
         </div>
 
-        <div class="grid grid-cols-3 gap-8 ml-25 mr-10">
+        <div class="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-8 ml-15 mr-10">
 
             <div class="bg-gray-100 px-4 py-6 rounded-2xl">
                 <div class="mt-4">
@@ -511,7 +512,7 @@
     </section>
 
     <section class="mt-30">
-        <div class="ml-25 grid grid-cols-2">
+        <div class="ml-15 grid md:grid-cols-2 sm:grid-cols-1">
             <div >
                 <h3 class="text-sm text-red-700 mb-2">GET IN TOUCH</h3>
                 <P class="font-extrabold text-2xl">Let's build something extraordinary together.</P>
@@ -555,7 +556,7 @@
                 </div>
             </div>
 
-            <form  action="https://formspree.io/f/mzdlrbwb"  method="POST">
+            <form  action="https://formspree.io/f/mzdlrbwb"  method="POST mr-10">
                 <div class="grid grid-cols-2 mt-25 gap-4 mb-4">
                     <div class="">
                        <label for="name" class="block text-xs font-bold">Name</label>
@@ -586,7 +587,7 @@
     </section>
 
     <section class="mt-30 ">
-        <div class="flex justify-between ml-25 border-b border-gray-100 pb-12">
+        <div class="flex justify-between ml-15 border-b border-gray-100 pb-12">
             <div>
                 <h3 class="text-xl font-bold text-red-600 mb-3">Opeyemi Adegbesan</h3>
                 <p class="text-sm">Building scalable digital solutions with technical precision and minimalist design.</p>
@@ -613,7 +614,7 @@
             </div>
         </div>
 
-        <div class="flex justify-between gap-4 pt-8 text-sm font-medium">
+        <div class="flex justify-between gap-4 pt-8 text-sm font-medium ml-15">
             <div>
                 &copy; 2026 Opeyemi Adegbesan. Built with technical precision.
             </div>
